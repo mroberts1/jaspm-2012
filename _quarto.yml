@@ -1,0 +1,37 @@
+project:
+  type: 
+    website
+    
+format:
+  html:
+    toc: false
+    toc-location: left
+    toc-title: "    "
+    toc-depth: 3
+    theme: 
+      light: ember.scss
+      dark: [ember.scss, slate]
+    css: custom.scss
+    self-contained: true
+    grid: 
+      #sidebar-width: 300px
+      body-width: 600px
+      #margin-width: 300px
+      #gutter-width: 2em
+    fontsize: 0.8em
+    linestretch: 1.5
+    smooth-scroll: true
+    comments: 
+      utterances: 
+        repo:  mroberts1/blogComments
+fig-responsive: true
+embed-resources: false
+link-external-icon: false
+link-external-newwindow: true
+lightbox: auto
+image-lazy-load: true
+image-alt: " "
+execute: 
+  freeze: auto
+footnotes-hover: true
+#bibliography: bibliography_citedrive.bib
