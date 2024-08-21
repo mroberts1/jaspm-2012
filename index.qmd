@@ -62,17 +62,11 @@ MR: Quiet, please. You should be listening to the music! Anyway, you get the ide
 
 So, that piece you just heard is Hosono Haruomi from 1984, obviously from the YMO \[Yellow Magic Orchestra - Ed.\] period. **Video Game Music**, one of the first recordings to actually take videogame music seriously. We could go back further, YMO has **Computer Music** from 1979 as well. So, around about that period, YMO, particularly Harry Hosono, were very interested in videogames. So, this period, like the early 1980s, is a good place to, or arguably an essential place to start when we're thinking about the origins of chipmusic.
 
-Here's another place we could start. This is a short excerpt from Chris Marker's famous global documentary film from 1983 called **Sans Soleil** \[Sunless\]. It's in French with English subtitles, but you'll get the idea if we just take a look at it. 1983, one year before Harry Hosono's album.<br>
+Here's another place we could start. This is a short excerpt from Chris Marker's famous global documentary film from 1983 called **Sans Soleil** \[Sunless\]. It's in French with English subtitles, but you'll get the idea if we just take a look at it. 1983, one year before Harry Hosono's album.<br><br>
 
-<div>
+{{< video https://vimeo.com/1000991173 >}}
 
-<video playsinline controls="true" width="100%">
-
-<source src="https://vimeo.com/1000991173" type="video/mp4">
-
-</video>
-
-</div><br>
+<br>
 
 Okay, that's the clip. How many times have I heard that sound at the end of the death of Pac-Man? So, a graphic metaphor of the human condition according to Chris Marker. Interesting to think about. The reason I show this as well as play the clip from Hosono Harumi is that we can already see in this clip Chris Marker's recognition of video game music as a soundscape of urban everyday life. And we also see, interestingly, in the rather psychedelic sequence with the video synthesizer, Yamaneko Hayao, the very complex interplay between music and image within videogame culture. And a lot of contemporary artists, as you will see, who perform chipmusic, have quite spectacular and interesting visuals as well. Rather reminiscent in some ways of what we just saw. There are many different varieties, but this clip, actually, I think, shows quite well the complex interplay between video and music really from the outset of the history of videogames.
 
