@@ -2,11 +2,13 @@
 title: "    "
 ---
 
-# By Pressing Down This Special Key It Plays A Little Melody
+# By Pressing Down This Special Key<br>It Plays A Little Melody
 
 :::{.column-margin}
 <br><br><br>
-<audio controls src="audio/Kraftwerk - PC sample.mp3"></audio>
+<audio controls>
+  <source src="audio/kraftwerk.mp3" type="audio/mpeg">
+</audio>
 
 :::
 
@@ -66,7 +68,7 @@ Here's another place we could start. This is a short excerpt from Chris Marker's
 
 <video playsinline controls="true" width="100%">
 
-<source src="video/sans-soleil.mp4" type="video/mp4">
+<source src="https://vimeo.com/1000991173" type="video/mp4">
 
 </video>
 
