@@ -1,6 +1,9 @@
 project:
-  type: 
-    website
+  type: website
+  resources:
+    - "audio/"
+    - "video/"
+    - "img/"
 format:
   html:
     toc: false
@@ -11,10 +14,10 @@ format:
       light: ember.scss
       dark: [ember.scss, vapor]
     css: custom.scss
-    self-contained: true
+    self-contained: false
     grid: 
       #sidebar-width: 300px
-      body-width: 600px
+      body-width: 800px
       #margin-width: 300px
       #gutter-width: 2em
     fontsize: 0.8rem
@@ -31,6 +34,6 @@ lightbox: auto
 image-lazy-load: true
 image-alt: " "
 execute: 
-  freeze: auto
+  freeze: true
 footnotes-hover: true
 #bibliography: bibliography_citedrive.bib

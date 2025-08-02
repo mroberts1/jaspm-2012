@@ -12,6 +12,8 @@ title: "    "
 
 ## Videogame Subcultures and Nostalgia for the Future
 
+<iframe src="https://player.vimeo.com/video/1000991173?h=90b7aae606&title=0&byline=0&portrait=0" width="640" height="268" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
 [This paper was originally presented at the Japanese Association for the Study of Popular Music (JASPM) meeting, Tokyo, 25 May 2012.<br><br>
 Panelists: Noriko Manabe \[NM\], Martin Roberts \[MR\]<br>
 Host: Yoshitaka Mouri \[YM\]<br><br>Transcribed, edited, and adapted for the web, August 2024.<br><br>
@@ -62,7 +64,7 @@ So, that piece you just heard is Hosono Haruomi from 1984, obviously from the YM
 
 Here's another place we could start. This is a short excerpt from Chris Marker's famous global documentary film from 1983 called **Sans Soleil** \[Sunless\]. It's in French with English subtitles, but you'll get the idea if we just take a look at it. 1983, one year before Harry Hosono's album.<br><br>
 
-{{< video https://vimeo.com/1000991173 >}}
+<iframe src="https://player.vimeo.com/video/1000991173?h=90b7aae606&title=0&byline=0&portrait=0" width="640" height="268" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 <br>
 
