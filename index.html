@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>quarto-input45075ff3c38d5d36</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-7ed84bbf4793fbb918a84c2423e0f7ab.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-5956f85b918567f1e6dc5d2cc7009152.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-7ed84bbf4793fbb918a84c2423e0f7ab.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="custom.scss">
+</head>
+
+<body class="floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+
+<section id="by-pressing-down-this-special-key-it-plays-a-little-melody" class="level1 page-columns page-full">
+<h1>By Pressing Down This Special Key<br>It Plays A Little Melody</h1>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><br><br><br> </p><figure class="figure"><audio controls="" src="audio/kraftwerk.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio><figcaption>Kraftwerk, 'Pocket Calculator'(1991)</figcaption></figure><p></p>
+</div></div><section id="videogame-subcultures-and-nostalgia-for-the-future" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="videogame-subcultures-and-nostalgia-for-the-future">Videogame Subcultures and Nostalgia for the Future</h2>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">This paper was originally presented at the Japanese Association for the Study of Popular Music (JASPM) meeting, Tokyo, 25 May 2012.<br><br> Panelists: Noriko Manabe [NM], Martin Roberts [MR]<br> Host: Yoshitaka Mouri [YM]<br><br>Transcribed, edited, and adapted for the web, August 2024.<br><br> Martin Roberts<br> Emerson College<br><br> <a href="mailto:mroberts1@gmail.com"><i class="fa-regular fa-envelope" aria-label="envelope"></i></a> | <a href="https://merveilles.town/@dokoissho"><i class="fa-brands fa-mastodon" aria-label="mastodon"></i></a> | <a href="https://github.com/mroberts1/"><i class="fa-brands fa-github" aria-label="github"></i></a> | <a href="https://facebook.com/mr05301"><i class="fa-brands fa-facebook" aria-label="facebook"></i></a> | <a href="https://twitter.com/dokoissho"><i class="fa-brands fa-twitter" aria-label="twitter"></i></a></span></div></div>
+<p>MR: Let me say first of all why I’m interested in chipmusic. It’s also sometimes called 8-bit music. In Japanese context, you hear the term <strong>pico pico</strong> as well. That’s probably the term you’re most familiar with. I’m interested in subcultural musics, or more specifically, the role of music as a basis for subcultural identities–we need only mention punk as a simple example of what I’m talking about there. Chipmusic has been for the past 30 years, and to a large extent today, I think still remains, a subcultural music, which also models itself in some ways on earlier subcultural identities like punk - interestingly, there was an article published in <em>Wired</em> magazine in 2003 by none other than Malcolm McLaren himself, the subcultural entrepreneur responsible for the Sex Pistols, essentially embracing chipmusic as the new punk. This was in 2003. He got a lot of criticism from people within chipmusic for that. But it’s interesting that Malcolm McLaren himself sees chipmusic as in some ways picking up where punk left off.</p>
+<p>YM: translates</p>
+<div class="page-columns page-full"><p>MR: So this paper is part of a larger project I’ve been working on for a few years now, which is about the relationship between subcultures and globalization, and will be included in that project. In particular, with regard to music, I’ve been interested in what I call transnational subcultural networks. Chipmusic would be one example of that. I recently completed an article which is coming out soon on Shibuya-kei, the Shibuya-kei genre as a case study in a transnational soundscape, actually, as I characterize it in that article. So I see chiptunes within the same kind of perspective, and I’m going to talk tonight about it as a transnational soundscape.</p><div class="no-row-height column-margin column-container"><span class="margin-aside"><br><br><br><br>Martin Roberts, “<a href="https://www.cambridge.org/core/journals/popular-music/article/abs/new-stereophonic-sound-spectacular-shibuyakei-as-transnational-soundscape/5DD6CA174C1FB15AFF5523F77E9D4F49#">‘A New Stereophonic Sound Spectacular’: Shibuya-kei as Transnational Soundscape</a>.” <em>Popular Music</em> 32, no. 1 (January 2013): 111-123.</span></div></div>
+<p>I know the audience is Japanese, so I’m going to try to focus more on Japanese things, but this is not a specifically Japanese project, although it has a lot of interesting connections to Japanese popular music, as you’ll see.</p>
+<p>YM: translates</p>
+<p>MR: Chipmusic or chiptunes has a surprisingly long history, and it’s been known under different titles. I’ve started to experimentally use the term <strong>nanomusic</strong> precisely because chip music is a term that’s often used to describe music which is, strictly speaking, not chipmusic anymore. A definition that’s given, what’s called the strict definition of chipxmusic, is that it is music composed for the microchip-based audio hardware of early computers and gaming consoles; so the music is composed for and performed with microchips, particularly like the Commodore SID chip, which is the classic kind of chip from the 80s. A lot of music today, strictly speaking, particularly sample-based music, does not do that directly or does it in all sorts of complicated ways. So I’ve started to use the term nanomusic. I think in many ways we live in a kind of nano-culture today, and this is something that is happening with music. Music is getting smaller and smaller. The devices that we play, music is kind of getting smaller and smaller. On my iPhone, I have two apps, both starting with nano. One is called NanoStudio, which is basically a sort of sequencer program, and then a program called NanoLoop, which was written originally for the Game Boy in 1998, and is used to compose chiptune music. So the word nano comes up quite repetitively in talking about these musics, and given that there’s no agreement really on the particular term that we can use to talk about these kind of micromusics - if you like, music on mobile or micro-devices - I’m wondering whether nano-music might be a useful term to use. We can maybe discuss this later.</p>
+<p>YM: translates</p>
+<p>YM: So the history of chip music is a long one, it goes back a lot longer than you might expect. It’s part of the larger history of videogame music. So I’m going to go back a little bit historically to the 1980s and just suggest a couple of starting points for thinking about or putting what we now call chipmusic or what I’m experimentally calling nanomusic into more of a historical context. So the first is kind of a test. We’ll see how geeky you are in terms of whether you can identify this particular track that I’m going to play.<br></p>
+<div>
+<video playsinline="" controls="true" width="100%">
+<source src="video/hosono-videogame-music.mp4" type="video/mp4">
+</video>
+</div>
+<p><br></p>
+<p>YM: This is amazing.</p>
+<p>MR: Yeah?</p>
+<p>YM: This is amazing music.</p>
+<p>MR: Yeah, you should know it. You should know this.</p>
+<p>YM: It’s so funny.</p>
+<p>MR: Quiet, please. You should be listening to the music! Anyway, you get the idea.</p>
+<p>So, that piece you just heard is Hosono Haruomi from 1984, obviously from the YMO [Yellow Magic Orchestra - Ed.] period. <strong>Video Game Music</strong>, one of the first recordings to actually take videogame music seriously. We could go back further, YMO has <strong>Computer Music</strong> from 1979 as well. So, around about that period, YMO, particularly Harry Hosono, were very interested in videogames. So, this period, like the early 1980s, is a good place to, or arguably an essential place to start when we’re thinking about the origins of chipmusic.</p>
+<p>Here’s another place we could start. This is a short excerpt from Chris Marker’s famous global documentary film from 1983 called <strong>Sans Soleil</strong> [Sunless]. It’s in French with English subtitles, but you’ll get the idea if we just take a look at it. 1983, one year before Harry Hosono’s album.<br><br></p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://player.vimeo.com/video/1000991173" frameborder="0" title="" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""></iframe></div>
+<p><br></p>
+<p>Okay, that’s the clip. How many times have I heard that sound at the end of the death of Pac-Man? So, a graphic metaphor of the human condition according to Chris Marker. Interesting to think about. The reason I show this as well as play the clip from Hosono Harumi is that we can already see in this clip Chris Marker’s recognition of video game music as a soundscape of urban everyday life. And we also see, interestingly, in the rather psychedelic sequence with the video synthesizer, Yamaneko Hayao, the very complex interplay between music and image within videogame culture. And a lot of contemporary artists, as you will see, who perform chipmusic, have quite spectacular and interesting visuals as well. Rather reminiscent in some ways of what we just saw. There are many different varieties, but this clip, actually, I think, shows quite well the complex interplay between video and music really from the outset of the history of videogames.</p>
+<p>YM: translates</p>
+<p>MR: So, let’s fast forward from 1983 to 2006.<br></p>
+<div>
+<video playsinline="" controls="true" width="100%">
+<source src="video/blip-festival-japan.mp4" type="video/mp4">
+</video>
+</div>
+<p><br></p>
+<p>So that was the first Blip Festival that was held in New York in 2006. And that’s continued every year since then. In fact, interestingly, this weekend is Blip Festival in New York. So, it’s actually starting today. Well, they’re a little bit behind us, so it hasn’t started quite yet. But it’s starting today in New York, and it’s going over this weekend. What was interesting about the first Blip Festival, which developed out of a scene that had been sort of simmering in New York really since the early 2000s at a club called The Tank, is that, as you can see, there are a lot of Japanese artists there. We saw a couple in that little clip. There was also a performance by probably the leading Japanese chipmusic performer, which is a group that some of you might have heard of called YMCK. Andx we’ll be hearing a little bit more about YMCK later. In 2009, however, the festival was held in Denmark. And from 2010, the first one was held in Tokyo, the first one was held in 2011. It’s being held again in the fall 2012 in October at Koenji High. I’m hoping to go. I’ll be in Korea at the time, but I’m going to come over and go. So, if you’d like to join me, that would be great.</p>
+<p>So, that’s 2012. So, what has happened, because of the Tokyo Blip Festival starting up, there’s less Japanese artists go over now than at the very beginning, because they have their own festival in Tokyo. This year, there’s only one Japanese artist, I think, or one or two. I believe it’s just one artist performing, which is Terada Soichi, also known as Omodaka. And we’ll hear more about Omodaka later.</p>
+<p>YM: translates</p>
+<p>MR: This scene is actually more of a revival than a new development. There’s been a resurgence of interest in chip music, which was much more subculture in the 80s and the 90s and was done really by computer programmers, people that could actually program the chips to play the music. It’s gradually become more easy as software was written so that non-programmers could play that music. It’s become increasingly easy over the past decade to the point now where you can play chip music on an iPhone or an iPad using apps. The reasons for the revival are kind of complicated, but rather obvious, I suppose, in some ways. You can talk about it in terms of networks, new networks, emerging websites. Micromusic, 8-Bit People, 8-bit Collective, these are all major kind of portals for chipmusic. And then, of course, particularly over the last five or six years, the rise of YouTube, Facebook, Twitter, SoundCloud as a way for musicians to upload and share music. So really, particularly SoundCloud, I think, and the other netlabels, as they’re called, have been really instrumental in the scene taking off over the past six years or so.</p>
+<p>YM: translates</p>
+<p>MR: So you’re probably wondering about what kind of genres of music are played on chip music - we saw some hardcore earlier, we saw some more kind of mellow electronic music. But a very wide variety of musical genres are represented in chipmusic. And, in fact, the differences play out more in terms of the different platforms that people use. The Nintendo Game Boy is one of the dominant platforms, but certainly not the only one. And increasingly, people are re-engineering their own equipment.</p>
+<div class="page-columns page-full"><p>So I’ve become very interested in one of the netlabels that I didn’t mention up until now, which is called Jahtari, which basically used to produce something that they called digital laptop reggae, although they realize that term is now obsolete because they don’t use laptops anymore. They use synthesizers that they built themselves that use the Commodore SID sound chip. But basically they’re producing what we could call chipped dub music and reggae and other styles as well. So I’m going to investigate this a little bit and show you more about that.</p><div class="no-row-height column-margin column-container"><span class="margin-aside">On Jahtari, see Nicolas Nova, <em>8-Bit Reggae: Collision and Creolization</em> (Paris: Éditions Volumiques, 2014).</span></div></div>
+<p>YM: translates</p>
+<p>MR: Digital laptop reggae, they call it, DLR.</p>
+<p>YM: Is it equipment or is it software?</p>
+<p>MR: Equipment. They were using not Ataris but Commodore SID primarily to produce… Well, the software, I’m not sure what software they were using on the laptop…</p>
+<p>YM: translates</p>
+<p>MR: So let me tell you a bit more about Jahtari. It was started by a guy whose DJ name is disrupt.</p>
+<p>YM: Jahtari?</p>
+<p>MR: Yeah, Jan Gleichmar. He’s from Leipzig in Germany. Leipzig is one of the big centers for chipmusic production. disrupt and one of his collaborators went on an Asian tour in 2009 to China, to Hong Kong, and to Tokyo–they had a couple of weeks in Tokyo. And this song, which I’m now going to play to you, is very popular in Japan. So I’m going to play it to you and I think you might recognize it.<br></p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/f8jHgy9xw9c" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<div class="page-columns page-full"><p>I’m assuming everybody recognized that, but maybe I’m wrong. But we’ll come to what it actually is in a minute. Jan Gleichmar couldn’t understand why people were singing along to this tune when he played it to audiences in Japan. Because he thought that he was covering these two songs: a slightly older song from the 60s by the Soul Vendors called “Ringo Rock,” and a song by the Skatolites just called “Ringo,” from 1965.</p><div class="no-row-height column-margin column-container"><span class="margin-aside">“<a href="https://jahtari.org/archive/magazine/reggae/jahpan_vs_jamaica.htm">Jahpan vs.&nbsp;Jamaica</a>” (Jahtari website, n.d.)</span></div></div>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/KUBb-Iz_cOo" title="Johnnie Moore and the Skatalites, 'Ringo' (1965)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>That’s the Skatolites version. This is the Soul Vendors version.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/XMgAq5zgXFo" title="Soul Vendors, 'Ringo Rock' (1969)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>So does anybody recognize this song? (It’s not about Ringo Starr).</p>
+<p>NM: It’s “Ringo Oiwake”.</p>
+<p>MR: Exactly.</p>
+<p>NM: But the question is, did they get it from Martin Denny or did they get it, where did they get it from?</p>
+<p>MR: This is unknown at the moment, but you’re correct. Here it comes.<br></p>
+<p></p><div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/S0KLu6lZ5Yw" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div><div class="no-row-height column-margin column-container"><span class="margin-aside">Misora Hibari, ‘Ringo Oiwake,’ from <em>Ringo-en no shojo</em> (Koji Shima, 1952)</span></div><p></p>
+<p><br></p>
+<div>
+<video playsinline="" controls="true" width="100%">
+<source src="video/ringo-oiwake-misora-hibari.mp4" type="video/mp4">
+</video>
+</div>
+<div class="page-columns page-full"><p><br> Of course, you all know who this is, Hibari Misora, one of the most famous popular singers in Japan. The film is 1952. To my knowledge, this is the origin of the track that we started from in 2009. It was played by Jan Gleichmar. Actually, I just picked up a vinyl copy of this song yesterday. I’ll pass this around. It’s kind of nice. It’s a cultural artifact of “Ringo Oiwake.” Nobody seems to know how it got here. I’m sure most of you know this, but it was played in 2009.</p><div class="no-row-height column-margin column-container"><span class="margin-aside">Misora Hibari, ‘Ringo Oiwake,’ 1970s TV performance.</span></div></div>
+<p>YM: translates</p>
+<div class="page-columns page-full"><p>MR: So yeah this is an interesting example of what Keir Keightley, the Canadian popular music scholar, calls a <strong>song network</strong>. He has a very nice article about this Brazilian song, a bossanova classic called “O Barquinho” from the 1960s, and the relationship between “O Barquinho” and the French song bossanova in France, but also a particular song from the soundtrack to [Claude LeLouche’s film] <em>A Man and a Woman</em>, which is structurally very similar to the structure of the Brazilian song “O Barquinho”. So the concept of song network, I think, is an interesting one to explore in popular music - Keir Keightley works on what he calls round-the-world music, cosmopolitan music, like Martin Denny, for example, and all that stuff, like exotica from the 50s and 60s. Song network.</p><div class="no-row-height column-margin column-container"><span class="margin-aside">Keir Keightley, “Un voyage via barquinho… global circulation, musical hybridization, and adult modernity, 1961–9,” in Jason Toynbee and Byron Dueck, eds., <em>Migrating Music</em> (New York: Routledge, 2011): 112-26.</span></div></div>
+<p>YM: translates</p>
+<p>I mentioned YMCK earlier as being the best known of the Japanese chipmusic musicians, so I’m going to give you a couple of other examples to finish up today. YMCK is one of them. They have lots of unbearably cute music videos, which you can find on YouTube, so I just leave you to type YMCK into YouTube and you can see them all. The smaller the screen, the cuter they are, basically. I can show them later on my iPhone if anybody’s interested. But this is one of their more recent projects, which I think is very interesting for all sorts of reasons. Here it is.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/OwYlTjaFUvE" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>MR: That’s YMCK player. What’s interesting about that is these guys are musicians, but in fact you don’t have to be a musician to play this device. Particularly the current generation of apps have made it possible for not only non-programmers but non-musicians to play music by manipulating sort of ready-made musical objects effectively. I could get into more technical stuff about this, but it would be too detailed at this point. But suffice to say that, for example, I’m thinking of, it’s very common now on a lot of musical apps to be able to play quite complex scales that take a long time to learn on a keyboard, melodic minor scales or something like that, or even just any scale, automatically. So you hear these guys jamming, you can be playing blues scales, you can play any scale you like basically, and you just set the key in the scale and away you go, and you’re just basically playing the rhythm. So just as the first step in chipmusic was to enable non-programmers to play the music, these devices now enable non-musicians to play music.</p>
+<p>YM: translates</p>
+<p>I have one more example, I know time is running short, so I’m going to show you just one more example now, which is again very different from what I’ve looked at so far. I mentioned Omodaka earlier, he’s one of the leading performers of chipmusic, but do you already get a sense, I think, of the importance of performance in the current generation of chipmusic - this is something obviously that didn’t happen in the 80s or even the 90s. But since Blip Festival particularly, performance has really become a more important ixssue. And how do you make it interesting? I mean, it’s just basically you and a small sort of interface device, as you saw, doing that, right? Maybe not very interesting as playing, you know, killer riffs on a guitar, even if you’re sort of trying to rock out. So chipmusicians are becoming increasingly inventive in their performances, and one of the most inventive is Omodaka. His name is Terada Soichi.</p>
+<p>YM: translates</p>
+<p>[VIDEO: clip]</p>
+<p>That’s right. In any case, the importance of performance is very different from what it was in the 80s or 90s, and now the chipmusicians are doing a lot of innovative things with their performances. Compared to the guitar, it may not be that interesting, but that’s how it is. So, Terada Soichi.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/GZXwB0Khl8M" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p><small>Omodaka [Terada Soichi], “Yosawya San”, live at Bowery Ballroom, New York, 22 March 2009.</small></p>
+<p>[Playback glitches] That’s the chip on my computer that’s failing… Anyway, you get the idea.</p>
+<p>So there’s a lot going on in that video that is of interest to me, not least what seems to be a kind of reverse karaoke with Kanazawa Akiko, the famous singer who collaborated with Terada Soichi on this project, singing, you know, kind of not exactly lip-syncing but because she is singing, but not present, obviously, but still performing. And then I’m sure you noticed his rather unusual costuming, which is a cross-dressed <em>miko</em>, basically Shinto shrine maiden, I think it’s usually translated. I’ve been investigating the history of <em>miko</em> and it’s kind of interesting, involves trance dancing at various historical periods, but I’m still kind of digging into that at the moment. But, and then as for the mask, I’m not sure about what to make of that. Maybe you have some thoughts about that. But anyway, you saw enough to get some idea of what I mean when I talk about performance in chipmusic today. So I’ll finish it here.</p>
+<div class="page-columns page-full"><p>I could have talked about retromania, which is Simon Reynolds’s book, recently critiquing phenomena like the fetishizing of rock music’s historical past. Interestingly, Simon doesn’t talk about videogame music at all in the entire book, and it’s a very lengthy book. It has nothing to say about chipmusic, but I’m sure you would see it as an example of retromania. But what I would emphasize is that for most of the musicians that we’ve been looking at today, they don’t really see what they’re doing as nostalgia anymore at all. Of course, there’s an appeal for that generation for the kind of toys that they grew up with, playing on Game Boys and Commodores and so on. But it’s really about doing something new with old technology. And it’s interesting that Manabe-san was talking about Gérard Genette and structuralism because the concept of <em>bricolage</em> is another structuralist concept that I think works quite nicely to talk about what people are doing today to make something new out of old technologies. So I’ll stop there.</p><div class="no-row-height column-margin column-container"><span class="margin-aside"><img src="img/retromania.jpg" class="img-fluid" width="100"><br><br>Simon Reynolds, <em>Retromania: Pop Culture’s Addiction to Its Own Past</em> (London: Faber &amp; Faber, 2012).</span></div></div>
+<p>YM: Thank you.</p>
+<p>YM: translates</p>
+<p>This, this, yeah, just briefly, this is a guy I met last weekend in a videogame store in Kichijoji. He introduced himself as a Mario pianist. He performs classical music performances of Mario games, basically. So I’ll just leave you with this.</p>
+<p>He’s from Nagoya. Nagoya? Is it accident or you made an appointment? It was accident. Happy accident. Surrealist encounter.</p>
+<p></p><div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/T7LQCf3rBpY" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div><div class="no-row-height column-margin column-container"><span class="margin-aside">Piano game music medley, Mario Pianist (<a href="https://x.com/pianistkantaku"><span class="citation" data-cites="pianistkantaku">@pianistkantaku</span></a>), 2012.</span></div><p></p>
+<p>MR: It’s almost like the exact opposite of chiptunes. … Mario plays classical music. … It goes on for quite a long time. Here he is again, sorry.</p>
+<p>YM: Do you have time to go out after this?</p>
+<p>MR: Yeah.</p>
+<hr>
+<p><strong>Q&amp;A</strong></p>
+<p>YM: What he said, maybe it’s a kind of live music or a live event plays a very important role to globalize.</p>
+<p>MR: Absolutely.</p>
+<p>YM: Is there any kind of historical trajectory?</p>
+<p>MR: Well, the scene, the scene globalized. First of all, you have to understand that there’s more than one scene. So the Jahtari scene is different. The musicians that are on the Jahtari netlabel that are playing reggae on dub on Commodore chips are a different bunch of guys from the people that go to BlipFest every year. BlipFest itself has started to globalize and they have, I think the first year there were about five or six Japanese musicians. Then there was Scandinavian musicians. Now people come from Australia, really all over the place, but less Japanese because they have their own festival now. So some Americans are coming over actually in the fall to the Tokyo BlipFest. But as far as I know, that’s the main chipmusic festival. I don’t know of any others that, for example, specifically for BlipFest that seems to be the main event at the moment. There is quite a lot of variety in the genres of music, but for example, I haven’t really seen, there’s a documentary about BlipFest and I didn’t really see any like reggae or dub performed in that. It’s just mainly other genres, you know, rock or hip-hop or yeah, all sorts of things. But BlipFest is the main festival.</p>
+<p>YM: What is the difference between techno music and chipmusic? Is there any kind of point?</p>
+<p>MR: Quite a lot of musicians have started out doing techno, have gone into the chip scene now.It’s not invariably true. One interesting question as well for chipmusicians is whether they arethemselves already trained musicians. Some are classically trained or have some kind of training. Others didn’t. They’re true sort of <em>bricoleurs</em>, you know, in Levi-Strauss’ sense of <em>bricolage</em>. They just experiment and it’s very intuitive, their approach to it. But a number of people did come out of techno and I think they became dissatisfied with the increasing complexity. It’s a little bit like using Microsoft Word to write an essay. You know, the program has become so complicated that now we have all these very simple apps for writing which just give you a blank screen basically and it’s a kind of minimalist approach. So people like the constraints of the chiptunes hardware and software and working within those constraints rather than trying to figure out Ableton Live or Pro Tools or whatever. Malcolm McLaren in the article about about chipmusic from <em>Wired</em> magazine mentions that one of the French guys that he was hanging out with, a chiptunes artist, was wearing a t-shirt that said Fuck Pro Tools. You know, so there’s a kind of reaction against the over-complexity of techno music and an idea of going back to something very, very limited and constrained and trying to be creative within that.</p>
+<p>YM: translates</p>
+<p>If anybody wants to try YMCK player, I have an idea. I was going to perform, but I’m not very good at it, so…</p>
+<p>Oh, no, you have to show it.</p>
+<p>You should come up and play it. Wait, wait, wait, wait. Come here. Plugging in. Let me turn it up. It should be working. It’s not working. Wait, you can get a better wave. You can get a better, louder wave on it. It’s working. Something like that, it’s very cheap. You know what I was going to say? But it only has that one bass? No, no, you can add any tune from your iTunes library. So I was putting in like Pizzicato 5 songs, and you can kind of play along with it. Yeah, so that’s nice that you can play along with any song, basically. Even if you’re not a musician. Especially if you’re not a musician.</p>
+
+
+</section></section></main></div>
+
+
+
+
+
+ <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<script src="https://utteranc.es/client.js" repo="mroberts1/blogComments" issue-term="pathname" theme="github-light" crossorigin="anonymous" async="">
+</script>
+ <!-- /content -->
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
