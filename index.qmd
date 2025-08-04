@@ -12,7 +12,7 @@ title: "    "
 
 ## Videogame Subcultures and Nostalgia for the Future
 
-<iframe src="https://player.vimeo.com/video/1000991173?h=90b7aae606&title=0&byline=0&portrait=0" width="640" height="268" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/1000991173?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;muted=1" width="700" height="426" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="Sans Soleil: Video Games"></iframe>
 
 [This paper was originally presented at the Japanese Association for the Study of Popular Music (JASPM) meeting, Tokyo, 25 May 2012.<br><br>
 Panelists: Noriko Manabe \[NM\], Martin Roberts \[MR\]<br>
@@ -39,13 +39,9 @@ YM: translates
 YM: So the history of chip music is a long one, it goes back a lot longer than you might expect. It's part of the larger history of videogame music. So I'm going to go back a little bit historically to the 1980s and just suggest a couple of starting points for thinking about or putting what we now call chipmusic or what I'm experimentally calling nanomusic into more of a historical context. So the first is kind of a test. We'll see how geeky you are in terms of whether you can identify this particular track that I'm going to play.<br>
 
 <div>
-
 <video playsinline controls="true" width="100%">
-
 <source src="video/hosono-videogame-music.mp4" type="video/mp4">
-
 </video>
-
 </div><br>
 
 YM: This is amazing.
@@ -64,7 +60,7 @@ So, that piece you just heard is Hosono Haruomi from 1984, obviously from the YM
 
 Here's another place we could start. This is a short excerpt from Chris Marker's famous global documentary film from 1983 called **Sans Soleil** \[Sunless\]. It's in French with English subtitles, but you'll get the idea if we just take a look at it. 1983, one year before Harry Hosono's album.<br><br>
 
-<iframe src="https://player.vimeo.com/video/1000991173?h=90b7aae606&title=0&byline=0&portrait=0" width="640" height="268" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/1000991173?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=0&amp;muted=0" width="700" height="426" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="Sans Soleil: Video Games"></iframe>
 
 <br>
 
@@ -75,13 +71,9 @@ YM: translates
 MR: So, let's fast forward from 1983 to 2006.<br>
 
 <div>
-
 <video playsinline controls="true" width="100%">
-
 <source src="video/blip-festival-japan.mp4" type="video/mp4">
-
 </video>
-
 </div><br>
 
 So that was the first Blip Festival that was held in New York in 2006. And that's continued every year since then. In fact, interestingly, this weekend is Blip Festival in New York. So, it's actually starting today. Well, they're a little bit behind us, so it hasn't started quite yet. But it's starting today in New York, and it's going over this weekend. What was interesting about the first Blip Festival, which developed out of a scene that had been sort of simmering in New York really since the early 2000s at a club called The Tank, is that, as you can see, there are a lot of Japanese artists there. We saw a couple in that little clip. There was also a performance by probably the leading Japanese chipmusic performer, which is a group that some of you might have heard of called YMCK. Andx we'll be hearing a little bit more about YMCK later. In 2009, however, the festival was held in Denmark. And from 2010, the first one was held in Tokyo, the first one was held in 2011. It's being held again in the fall 2012 in October at Koenji High. I'm hoping to go. I'll be in Korea at the time, but I'm going to come over and go. So, if you'd like to join me, that would be great.
@@ -143,13 +135,9 @@ MR:  This is unknown at the moment, but you're correct. Here it comes.<br>
 <br>
     
 <div>
-
 <video playsinline controls="true" width="100%">
-
 <source src="video/ringo-oiwake-misora-hibari.mp4" type="video/mp4">
-
 </video>
-
 </div>[Misora Hibari, 'Ringo Oiwake,' 1970s TV performance.]{.aside}<br>
 Of course, you all know who this is, Hibari Misora, one of the most famous popular singers in Japan. The film is 1952. To my knowledge, this is the origin of the track that we started from in 2009. It was played by Jan Gleichmar. Actually, I just picked up a vinyl copy of this song yesterday. I'll pass this around. It's kind of nice. It's a cultural artifact of "Ringo Oiwake." Nobody seems to know how it got here. I'm sure most of you know this, but it was played in 2009.
 
