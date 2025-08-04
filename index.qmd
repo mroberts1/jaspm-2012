@@ -12,7 +12,7 @@ title: "    "
 
 ## Videogame Subcultures and Nostalgia for the Future
 
-<iframe src="https://player.vimeo.com/video/1000991173?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;muted=1" width="700" height="426" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="Sans Soleil: Video Games"></iframe>
+<iframe src="https://player.vimeo.com/video/1000991173?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;muted=1" width="750" height="456" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="Sans Soleil: Video Games"></iframe>
 
 [This paper was originally presented at the Japanese Association for the Study of Popular Music (JASPM) meeting, Tokyo, 25 May 2012.<br><br>
 Panelists: Noriko Manabe \[NM\], Martin Roberts \[MR\]<br>
@@ -60,7 +60,7 @@ So, that piece you just heard is Hosono Haruomi from 1984, obviously from the YM
 
 Here's another place we could start. This is a short excerpt from Chris Marker's famous global documentary film from 1983 called **Sans Soleil** \[Sunless\]. It's in French with English subtitles, but you'll get the idea if we just take a look at it. 1983, one year before Harry Hosono's album.<br><br>
 
-<iframe src="https://player.vimeo.com/video/1000991173?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=0&amp;muted=0" width="700" height="426" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="Sans Soleil: Video Games"></iframe>
+<iframe src="https://player.vimeo.com/video/1000991173?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=0&amp;muted=0" width="750" height="456" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="Sans Soleil: Video Games"></iframe>
 
 <br>
 
